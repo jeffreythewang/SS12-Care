@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  ss12-care
 //
-//  Created by Jeffrey Wang, Soomin Jeong, Kenny Shi, and Lowell Bander on 3/1/14.
-//  Copyright (c) 2014 Jeffrey Wang, Soomin Jeong, Kenny Shi, and Lowell Bander. All rights reserved.
+//  Created by Jeffrey Wang, Soomin Jeong, and Kenny Shi on 3/1/14.
+//  Copyright (c) 2014 Jeffrey Wang, Soomin Jeong, and Kenny Shi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

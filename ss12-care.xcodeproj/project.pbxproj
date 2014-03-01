@@ -19,6 +19,7 @@
 		0027E07D18C271FA00387EEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0027E06518C271F900387EEB /* UIKit.framework */; };
 		0027E08518C271FA00387EEB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0027E08318C271FA00387EEB /* InfoPlist.strings */; };
 		0027E08718C271FA00387EEB /* ss12_careTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0027E08618C271FA00387EEB /* ss12_careTests.m */; };
+		0027E09A18C2884E00387EEB /* Firebase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0027E09918C2884E00387EEB /* Firebase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		0027E08218C271FA00387EEB /* ss12-careTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ss12-careTests-Info.plist"; sourceTree = "<group>"; };
 		0027E08418C271FA00387EEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0027E08618C271FA00387EEB /* ss12_careTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ss12_careTests.m; sourceTree = "<group>"; };
+		0027E09818C2884E00387EEB /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		0027E09918C2884E00387EEB /* Firebase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Firebase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				0027E07018C271FA00387EEB /* AppDelegate.h */,
 				0027E07118C271FA00387EEB /* AppDelegate.m */,
+				0027E09818C2884E00387EEB /* Firebase.h */,
+				0027E09918C2884E00387EEB /* Firebase.m */,
 				0027E07318C271FA00387EEB /* Images.xcassets */,
 				0027E06818C271FA00387EEB /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0027E07218C271FA00387EEB /* AppDelegate.m in Sources */,
+				0027E09A18C2884E00387EEB /* Firebase.m in Sources */,
 				0027E06E18C271FA00387EEB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +449,7 @@
 				0027E08C18C271FA00387EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0027E08D18C271FA00387EEB /* Build configuration list for PBXNativeTarget "ss12-careTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				0027E08F18C271FA00387EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
